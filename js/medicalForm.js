@@ -210,8 +210,10 @@ let app = new Vue({
             }
         })
       };
-
-      window.location = "./confirmation_medical.html"
+      setTimeout(function() {
+        window.location = "./confirmation_medical.html"
+      }, 6000)
+     
 
   }
 },
