@@ -17,6 +17,26 @@
   <!-- <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet"> -->
 </head>
 <body>
+	<script script src = "https://www.gstatic.com/firebasejs/7.10.0/firebase-app.js">
+</script>
+
+<!-- Add SDKs for Firebase Firestore-->
+<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-auth.js"></script>
+<script>
+  const firebaseConfig = {
+    apiKey: "AIzaSyCTdSk92DMIVx0dzjt6XVWob8DjmivJgvg",
+    authDomain: "donatemed-3fcd6.firebaseapp.com",
+    databaseURL: "https://donatemed-3fcd6.firebaseio.com",
+    projectId: "donatemed-3fcd6",
+    storageBucket: "donatemed-3fcd6.appspot.com",
+    messagingSenderId: "617277227692",
+    appId: "1:617277227692:web:8260565216f6fbc49ed509",
+    measurementId: "G-R7EK7XS4QN"
+  };
+
+  firebase.initializeApp(firebaseConfig);
+</script>
 <!-- nav -->
 <section id="app" class="signIn">
   <div class="container-fluid" style="padding: 0 0;">
@@ -64,26 +84,6 @@
 	// var nav = responsiveNav(".nav-collapse");
 </script>
 
-<script script src = "https://www.gstatic.com/firebasejs/7.10.0/firebase-app.js">
-</script>
-
-<!-- Add SDKs for Firebase Firestore-->
-<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-firestore.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-auth.js"></script>
-<script>
-  const firebaseConfig = {
-    apiKey: "AIzaSyCTdSk92DMIVx0dzjt6XVWob8DjmivJgvg",
-    authDomain: "donatemed-3fcd6.firebaseapp.com",
-    databaseURL: "https://donatemed-3fcd6.firebaseio.com",
-    projectId: "donatemed-3fcd6",
-    storageBucket: "donatemed-3fcd6.appspot.com",
-    messagingSenderId: "617277227692",
-    appId: "1:617277227692:web:8260565216f6fbc49ed509",
-    measurementId: "G-R7EK7XS4QN"
-  };
-
-  firebase.initializeApp(firebaseConfig);
-</script>
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="./js/signin.js"></script>
 </body>
