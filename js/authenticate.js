@@ -6,5 +6,5 @@ var user = firebase.auth().currentUser;
  else{
    console.log(error);
    alert("Please Sign Up")
-   window.location="./signIn.html";
+   window.location="./signin.html";
  }

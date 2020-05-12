@@ -3,20 +3,6 @@ let db = firebase.firestore();
 let itemNeedsRef = db.collection("itemNeeds");
 let usersRef = db.collection("users");
 
-// var email = "contact@cuimc.com";
-// var userEmail = user.email;
-
-// var user = firebase.auth().currentUser;
-//
-// if (user) {
-//   var id = user.uid;
-//   var email = user.email;
-// } else {
-//   // console.log(error);
-//   alert("Please Sign Up")
-//   window.location = "./signIn.html";
-// }
-
 
 let app = new Vue({
   el: "#medicalForm",
