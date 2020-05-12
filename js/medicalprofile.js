@@ -4,14 +4,6 @@ let itemsRef = db.collection("itemNeeds");
 let donateRef = db.collection("donations");
 let usersRef = db.collection("users");
 
-// var user = firebase.auth().currentUser;
-// 其他authentication的碼寫在mounted
-
-// var email = "contact@cuimc.com";
-// var name ='Columbia University Irving Medical Center'
-// let userEmail = user. email;
-// let userName = user.displayName;
-// var id;
 
 Vue.component("item", {
   props: ["itemName"],
