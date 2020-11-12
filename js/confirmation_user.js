@@ -1,3 +1,6 @@
+const db = firebase.firestore();
+const usersRef = db.collection('users');
+
 let app = new Vue({
   el: "#app",
   data: {},

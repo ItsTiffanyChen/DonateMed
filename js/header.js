@@ -1,6 +1,6 @@
 
-// const db = firebase.firestore();
-// const usersRef = db.collection('users');
+const db = firebase.firestore();
+const usersRef = db.collection('users');
 
 let header =
 '<div class="container-fluid">\
